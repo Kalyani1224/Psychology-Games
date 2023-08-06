@@ -1,0 +1,296 @@
+INDEX.HTML
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personality Quiz</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <h1>Are you an Empowered Women?</h1>
+    <div id="quiz-area">
+      <section class="q-n-a">
+        <h3 class="question">Which word best describes you?</h3>
+        <div class="answers" >
+          <div class="answer" data-value="1"><input type ="checkbox" id="strong" name="strong"> <label for="strong">Strong</label></div>
+          <div class="answer" data-value="2"><input type ="checkbox" id="curoius" name="curious"> <label for="strong">Curious</label></div>
+          <div class="answer" data-value="3"><input type ="checkbox" id="inspirational" name="inspirational"> <label for="strong">Inspirational</label></div>
+        </div>
+        <div class="button-holder">&nbsp;</div>
+      </section>
+
+
+      <section class="q-n-a">
+        <h3 class="question">How often do you take risks?</h3>
+        <div class="answers">
+          <div class="answer" data-value="1"><input type ="checkbox" id="Occasionally" name="Occasionally"> <label for="Occasionally">Occasionally</label></div>
+          <div class="answer" data-value="2"><input type ="checkbox" id="Rarely , if ever" name="Rarely , if ever"> <label for="Rarely , if ever">Rarely , if ever</label></div>
+          <div class="answer" data-value="3"><input type ="checkbox" id="All the time" name="All the time"> <label for="All the time">All the time</label></div>
+        </div>
+        <div class="button-holder">&nbsp;</div>
+      </section>
+
+      <section class="q-n-a">
+        <h3 class="question">What does being empowered mean to you?</h3>
+        <div class="answers">
+          <div class="answer" data-value="1"><input type ="checkbox" id="Being able to stand up for myself" name="Being able to stand up for myself"> <label for="Being able to stand up for myself">Being able to stand up for myself</label></div>
+          <div class="answer" data-value="2"><input type ="checkbox" id="Doing what is best for me , no matter what" name="Doing what is best for me , no matter what"> <label for="Doing what is best for me , no matter what">Doing what is best for me , no matter what</label></div>
+          <div class="answer" data-value="3"><input type ="checkbox" id="Collaborating with others to change the world" name="Collaborating with others to change the world"> <label for="Collaborating with others to change the world">Collaborating with others to change the world</label></div>
+        </div>
+        <div class="button-holder">&nbsp;</div>
+      </section>
+
+      <section class="q-n-a">
+        <h3 class="question">When do you feel the most empowered?</h3>
+        <div class="answers">
+          <div class="answer" data-value="1"><input type ="checkbox" id="strong" name="When I receive praise from my peers"> <label for="When I receive praise from my peers">When I receive praise from my peers</label></div>
+          <div class="answer" data-value="2"><input type ="checkbox" id="When I do something good for myself" name="When I do something good for myself"> <label for="When I do something good for myself">When I do something good for myself</label></div>
+          <div class="answer" data-value="3"><input type ="checkbox" id="I always feel empowered" name="I always feel empowered"> <label for="I always feel empowered">I always feel empowered</label></div>
+        </div>
+        <div class="button-holder">&nbsp;</div>
+      </section>
+
+      <section class="q-n-a">
+        <h3 class="question">Which inspiring women do you look up to the most?</h3>
+        <div class="answers">
+          <div class="answer" data-value="1"><input type ="checkbox" id="Mary Kom" name="Mary Kom"> <label for="Mary Kom">Mary Kom</label></div>
+          <div class="answer" data-value="2"><input type ="checkbox" id="Indra Nooyi" name="Indra Nooyi"> <label for="Indra Nooyi">Indra Nooyi</label></div>
+          <div class="answer" data-value="3"><input type ="checkbox" id="Kiran Bedi" name="Kiran Bedi"> <label for="Kiran Bedi">Kiran Bedi</label></div>
+        </div>
+        <div class="button-holder">&nbsp;</div>
+      </section>
+
+      <section class="q-n-a">
+        <h3 class="question">Does fear of failure hold you back?</h3>
+        <div class="answers">
+          <div class="answer" data-value="1"><input type ="checkbox" id="Never" name="Never"> <label for="Never">Never</label></div>
+          <div class="answer" data-value="2"><input type ="checkbox" id="Sometime" name="Sometime"> <label for="Sometime">Sometime</label></div>
+          <div class="answer" data-value="3"><input type ="checkbox" id="Often" name="Often"> <label for="Often">Often</label></div>
+        </div>
+        <div class="button-holder">&nbsp;</div>
+      </section>
+
+      <section class="q-n-a">
+        <h3 class="question">Are you happy with your life right now?</h3>
+        <div class="answers">
+          <div class="answer" data-value="1"><input type ="checkbox" id="For most part , though there are a few things I wish I could change" name="For most part , though there are a few things I wish I could change"> <label for="For most part , though there are a few things I wish I could change">For most part , though there are a few things I wish I could change</label></div>
+          <div class="answer" data-value="2"><input type ="checkbox" id="Not really" name="Not really"> <label for="Not really">Not really</label></div>
+          <div class="answer" data-value="3"><input type ="checkbox" id="Yes" name="Yes"> <label for="Yes">Yes</label></div>
+        </div>
+        <div class="button-holder">&nbsp;</div>
+      </section>
+
+      <section class="q-n-a">
+        <h3 class="question">What motivates you to wake up every morning?</h3>
+        <div class="answers">
+          <div class="answer" data-value="1"><input type ="checkbox" id="My desire to make a difference in the world" name="My desire to make a difference in the world"> <label for="My desire to make a difference in the world">My desire to make a difference in the world</label></div>
+          <div class="answer" data-value="2"><input type ="checkbox" id="My need to be happy" name="My need to be happy"> <label for="My need to be happy">My need to be happy</label></div>
+          <div class="answer" data-value="3"><input type ="checkbox" id="Food" name="Food"> <label for="Food">Food</label></div>
+        </div>
+        <div class="button-holder">&nbsp;</div>
+      </section>
+
+      <section class="q-n-a">
+        <h3 class="question">Do you prefer to work alone or collaborate with other women on a project?</h3>
+        <div class="answers">
+          <div class="answer" data-value="1"><input type ="checkbox" id="Collaborate" name="Collaborate"> <label for="Collaborate">Collaborate</label></div>
+          <div class="answer" data-value="2"><input type ="checkbox" id="alone" name="alone"> <label for="alone">alone</label></div>
+          <div class="answer" data-value="3"><input type ="checkbox" id="Depends on the situation" name="Depends on the situation"> <label for="Depends on the situation">Depends on the situation</label></div>
+        </div>
+        <div class="button-holder">&nbsp;</div>
+      </section>
+
+      <section class="q-n-a">
+        <h3 class="question">How do you want to change the world?</h3>
+        <div class="answers">
+          <div class="answer" data-value="1"><input type ="checkbox" id="I haven't really thought about it" name="I haven't really thought about it"> <label for="I haven't really thought about it">I haven't really thought about it</label></div>
+          <div class="answer" data-value="2"><input type ="checkbox" id="Create world peace" name="Create world peace"> <label for="Invent something useful">Create world peace</label></div>
+          <div class="answer" data-value="3"><input type ="checkbox" id="Invent something useful" name="Invent something useful"> <label for="Invent something useful">Invent something useful</label></div>
+        </div>
+        <div class="button-holder">&nbsp;</div>
+      </section>
+
+      <div class="button finish"> What am I? </div>
+    </div>
+     <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous" charset="utf-8">
+     </script>
+
+    <!.....any jQ Plugins go here...>
+    <script type="text/javascript">
+      var questions = $('.question').length; //stores the number of questions we have
+      var total = 0; //store the sum of the answers the user selected
+      var avg = 0; //store the avg of the answers the user selected
+
+      $('.answer').on('click',function() {
+       if($(this).parent().find('.selected').length > 0){
+
+         $(this).parent().find('selected').removeClass('selected');
+       }
+
+       $(this).addClass('selected');
+       total += $(this).data('value');
+
+        console.log(total);
+      })
+
+      $('.finish').on('click' , function(){
+        avg = total / questions;
+        var message = '';
+        if($('.selected').length === questions){
+          //an answer for every question
+
+        if(avg <1.5){
+          message = 'You can improve yourself in many better ways';
+        }
+        else if(avg<2.5){
+          message = 'You are a pretty empowered woman';
+        }
+        else if(avg<3.5){
+          message = 'You are a epitome of an empowered woman';
+        }
+
+        else{
+          message = 'You have enough capabilities to become an empowered women.'
+        }
+
+      }
+
+        alert(message);
+      })
+
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+STYLES.CSS
+
+html
+ {
+  background-color: #B270A2;
+}
+
+body
+{
+    background-color: white;
+    font-family: Verdana,sans-serif;
+    font-size:100%;
+    text-align: center;
+    width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+h1
+{
+  color: #EF5B0C;
+}
+
+h3.question
+{
+  font-size: 2em;
+}
+
+hr
+{
+  background-color : white;
+  border-style: dotted none;
+  border-color: grey;
+  border-width: 10px;
+  width:10%;
+}
+
+.info
+{
+  font-size: 1.5em;
+}
+
+.answer
+{
+  background-color: #5CB8E4;
+  color: white;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  font-size: 1.5em;
+  margin: 10px auto 0;
+}
+
+.answer:hover
+{
+  background-color: cadetblue;
+}
+
+.answer-selected
+{
+  background-color: cadetblue;
+}
+
+.button
+{
+  background-color: cadetblue;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.mini.button
+{
+  display: block;
+  width: 30%;
+}
+
+.next
+{
+  float: right;
+}
+
+.previous
+{
+  float: left;
+}
+
+.button:hover
+{
+  background-color: #6FEDD6;
+}
+
+.button-holder
+{
+  width: 60%;
+  padding: 0.5em 0;
+  margin: 0.5em auto;
+}
+
+.clearfix:before,
+.clearfix:after
+{
+  consent:"";
+  display: table;
+}
+
+.clearfix:after
+{
+  clear: both;
+}
+
+.response p
+{
+  margin: 50px auto;
+  font-size: 3em;
+}
+
